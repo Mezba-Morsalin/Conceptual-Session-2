@@ -30,7 +30,7 @@ body {
 }
 .default-description {
     font-size: 0.875rem;
-    color: #ffffff;
+    color: rgba(255, 255, 255, 0.5);
 }
 /* Header Secton */
 header {
@@ -171,4 +171,35 @@ nav i {
   font-size: 1rem;
   font-weight: 300;
   color:  rgba(255, 255, 255, 0.5);
+}
+/* Habit Section Started */
+.habit-section {
+    margin-top: 100px;
+}
+.habit-heading {
+    text-align: center;
+    margin-bottom: 20px;
+}
+.habit-description {
+    text-align: center;
+}
+.habit-container {
+    margin-top: 50px;
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    gap: 120px;
+}
+.habit-info {
+    text-align: center;
+}
+.habit-info img {
+    width: 100%;
+    border-radius: 100%;
+    margin-bottom: 20px;
+}
+.habit-info h4 {
+    color: #ffffff;
+    font-size: 1.125rem;
+    font-weight: 600;
+    margin-bottom: 10px;
 }
