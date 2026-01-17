@@ -1,0 +1,92 @@
+@media screen and (max-width:576px) {
+    .nav-links {
+        display: none;
+    }
+    nav i {
+        display: block !important;
+    }
+    .navbar {
+        align-items: center;
+        width: 90%;
+        margin: 0 auto;
+    }
+    .banner-section {
+        flex-direction: column;
+        width: 90%;
+        margin: 0 auto;
+        margin-top: 80px;
+        gap: 60px;
+    }
+    .banner-content {
+        width: 100%;
+    }
+    .banner-img {
+        width: 90%;
+        margin: 0 auto;
+    }
+    .img-card-1 {
+        right: -10%;
+        top: 5%;
+        padding: 10px 16px;
+    }
+    .img-card-1 h3 {
+        font-size: 2rem;
+    }
+    .img-card-2 {
+        left: 1%;
+        top: 40%;
+        padding: 10px 16px;
+    }
+    .banner-heading {
+        font-size: 2.2rem;
+        font-weight: 800;
+    }
+    .banner-btn {
+        gap: 10px;
+    }
+    .banner-btn-1 {
+        font-size: 1.1rem;
+    }
+}
+@media screen and (min-width:576px) and (max-width:992px) {
+    .navbar {
+        align-items: center;
+        width: 90%;
+        margin: 0 auto;
+    }
+    .banner-section {
+        flex-direction: column;
+        width: 90%;
+        margin: 0 auto;
+        margin-top: 80px;
+        gap: 60px;
+    }
+    .banner-content {
+        width: 100%;
+    }
+    .banner-img {
+        width: 90%;
+        margin: 0 auto;
+    }
+    .img-card-1 {
+        right: 22%;
+        top: 5%;
+    }
+    .img-card-1 h3 {
+        font-size: 2rem;
+    }
+    .img-card-2 {
+        left: 5%;
+        top: 60%;
+    }
+    .banner-heading {
+        font-size: 4.875rem;
+        font-weight: 800;
+    }
+    .banner-btn {
+        gap: 10px;
+    }
+    .banner-btn-1 {
+        font-size: 1.1rem;
+    }
+}
