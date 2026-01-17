@@ -71,6 +71,27 @@
     .run-btn {
         width: 100%;
     }
+    .training-container {
+    grid-template-columns: repeat(1, 1fr);
+    }
+    .training-info1{
+        grid-column: span 1;
+    }
+    .training-info2{
+        grid-column: span 1;
+    }
+    .training-info3 {
+        grid-column: span 1;
+    }
+    .training-info4 {
+        grid-column: span 1;
+    }
+    .training-info5 {
+        grid-column: span 1;
+    }
+    .training-info6 {
+        grid-column: span 1;
+    }
 }
 @media screen and (min-width:576px) and (max-width:768px) {
     .navbar {
