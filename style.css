@@ -31,6 +31,7 @@ body {
 .default-description {
     font-size: 0.875rem;
     color: rgba(255, 255, 255, 0.5);
+    line-height: 24px;
 }
 /* Header Secton */
 header {
@@ -389,4 +390,59 @@ nav i {
     color: #ffffff;
     margin-bottom: 5px;
     font-size: 1.25rem;
+}
+/* Footer Section */
+.footer-section {
+    margin-top: 100px;
+    background-color: #1a1a1a;
+    padding: 50px 0 20px 0;
+}
+.footer-container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap: 100px;
+}
+.footer-heading {
+    color: #e6533c;
+    font-size: 4.375rem;
+    font-weight: 700;
+    font-style: italic;
+}
+.footer-links {
+    width: 40%;
+}
+.footer-links2 {
+    width: 40%;
+    justify-items: end;
+}
+.link-heading {
+    color: #ffffff;
+    font-size: 2rem;
+    font-weight: 700;
+    margin-bottom: 30px;
+}
+.footer-link {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+.footer-item {
+    list-style: none;
+}
+.link-footer {
+    text-decoration: none;
+    font-size: 1.43rem;
+    color: rgba(255, 255, 255, 0.5);
+    font-weight: 300;
+}
+hr {
+    border: none;
+    background-color: rgba(255, 255, 255, 0.5);
+    height: 1px;
+    margin-top: 50px;
+}
+.footer-last p {
+    text-align: center;
+    margin-top: 30px;
 }
