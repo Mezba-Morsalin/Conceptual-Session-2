@@ -228,8 +228,9 @@ nav i {
 }
 .run-img img {
     width: 100%;
-    vertical-align: middle;
+    object-fit: cover;
     border-radius: 10px;
+    display: block;
 }
 .run-btn {
     width: 40%;
@@ -315,31 +316,37 @@ nav i {
     height: 300px;
     width: 100%;
     object-fit: cover;
+    display: block;
 }
 .training-info2 img {
     height: 300px;
     width: 100%;
     object-fit: cover;
+    display: block;
 }
 .training-info3 img {
     height: 300px;
     width: 100%;
     object-fit: cover;
+    display: block;
 }
 .training-info4 img {
     height: 300px;
     width: 100%;
     object-fit: cover;
+    display: block;
 }
 .training-info5 img {
     height: 300px;
     width: 100%;
     object-fit: cover;
+    display: block;
 }
 .training-info6 img {
     height: 300px;
     width: 100%;
     object-fit: cover;
+    display: block;
 }
 /* Team Section Started */
 .team-section {
