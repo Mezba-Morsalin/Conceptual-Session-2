@@ -237,12 +237,13 @@ nav i {
 }
 /* Training Section */
 .training-section {
-    margin-top: 100px;
+    margin-top: 130px;
 }
 .training-container {
+    margin-top: 50px;
     display: grid;
     grid-template-columns: repeat(4, 1fr);
-    grid-template-rows: repeat(2, 200px) ;
+    overflow: hidden;
 }
 .training-info1 {
     grid-column: span 1;
@@ -283,7 +284,10 @@ nav i {
     position:absolute;
     color: #ffffff;
     top: 10%;
-    left: 50%;
+    left: 40%;
+    right: 20%;
+    text-align: center;
+
 }
 .training-info5 {
     grid-column: span 1;
@@ -308,23 +312,74 @@ nav i {
     width: 60%;
 }
 .training-info1 img {
+    height: 300px;
     width: 100%;
+    object-fit: cover;
 }
 .training-info2 img {
-    height: 200px;
+    height: 300px;
     width: 100%;
+    object-fit: cover;
 }
 .training-info3 img {
-    height: 200px;
+    height: 300px;
     width: 100%;
+    object-fit: cover;
 }
 .training-info4 img {
-    height: 200px;
+    height: 300px;
     width: 100%;
+    object-fit: cover;
 }
 .training-info5 img {
+    height: 300px;
     width: 100%;
+    object-fit: cover;
 }
 .training-info6 img {
+    height: 300px;
     width: 100%;
+    object-fit: cover;
+}
+/* Team Section Started */
+.team-section {
+    margin-top: 130px;
+}
+.team-container {
+    margin-top: 50px;
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);;
+    gap: 30px;
+    background-color: #1a1a1a;
+    padding: 25px;
+    border-radius: 12px;
+}
+.team {
+    border-radius: 12px;
+    overflow: hidden;
+    position: relative;
+}
+.team img {
+    width: 100%;
+    height: 320px;
+    object-fit: cover;
+    display: block;
+}
+.team::after {
+    content: "";
+    position: absolute;
+    inset: 0;
+    background: rgba(0,0,0,0.2);
+    z-index: 1;
+}
+.team-info {
+    position: absolute;
+    bottom:20px;
+    left: 20px;
+    z-index: 2;
+}
+.team-info h3 {
+    color: #ffffff;
+    margin-bottom: 5px;
+    font-size: 1.25rem;
 }
